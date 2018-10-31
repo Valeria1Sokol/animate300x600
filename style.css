@@ -1,0 +1,108 @@
+@font-face {
+    font-family: IntroRustG-Base2Line;
+    src: url(IntroRustG-Base2Line.otf);
+}
+
+;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/45140259_563703587433652_506081004419547136_n.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img {
+    width: 300px;
+    padding-top: 160px;
+    text-align: center;
+
+}
+
+.img img {
+    width: 300px;
+    animation: pulse 1s linear 0s forwards;
+}
+
+.img p {
+
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 155px;
+    left: 50px;
+}
+
+.more {
+    width: 300px;
+    height: 40px;
+    background: #8A3063;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    cursor: pointer;
+    position: relative;
+    top: 187px;
+}
+
+.more h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: IntroRustG-Base2Line;
+    font-weight: 300;
+    margin: 0;
+    padding: 8px 45px;
+
+}
+
+.more h3:hover {
+    text-shadow: 4px 4px 7px rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
+
+.more img {
+    width: 18px;
+    height: 18px;
+    margin: 10px 15px;
+}
+
+.label img {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    animation: bounceInLeft 1s linear .5s forwards;
+
+}
+
+.ml10 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+.ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+}
